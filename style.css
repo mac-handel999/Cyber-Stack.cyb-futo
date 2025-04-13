@@ -1,3 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 79%;
+}
+
 body {
-    font-size: 15pt;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  margin: 0px;
+  padding: 20px;
+  background: #0f172a;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.logo-img {
+  margin: 3px;
+  padding: 3px;
+  border-radius: 90px;
+  width: 60px;
+  height:60px;
+  box-shadow: 4px 5px 4px 5px black;
+  border: 2px solid #fff;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#nav-links {
+  margin: 5px;
+  padding: 5px;
+  
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+ #nav-links:hover {
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.hero {
+  padding: 2rem;
+  text-align: center;
+  background: #e2e8f0;
+}
+.hero input {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  width: 80%;
+  max-width: 400px;
+}
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+   border-radius: 20px;
+
+}
+.resource-card {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  transition: 0.3s ease;
+  border: 2px solid #0f172a;
+  border-radius: 20px;
+  box-shadow: 2px 3px 2px 3px #000;
+}
+.resource-card:hover {
+  box-shadow: 2px 3px 2px 3px rgba(0,0,0,0.1);
+}
+footer {
+  background: #0f172a;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.category-drop {
+  margin: 0px;
+  padding: 0px;
+  background: #fff;
+  box-shadow: 4px 5px 4px 5px black;
+  border: 2px solid #fff;
+  border-radius: 60px;
+}
+
+#searchBtn {
+  margin: 4px;
+  padding: 5px;
+  background: #0f172a ;
+  color: #fff;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  box-shadow: 2px 3px 2px 3px black;
+}
+
+#search {
+  margin: 4px;
+  padding: 5px;
+  background: #0f172a;
+  color: #fff;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  box-shadow: 3px 2px 3px 2px black;
 }

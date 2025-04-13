@@ -2,21 +2,98 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>HTML</title>
-  
-  <!-- HTML -->
-  
-
-  <!-- Custom Styles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Cyber-Stack.cyb-futo/home
+  </title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <p>Nothing to see here...</p>
-  <!-- Project -->
+  <header>
+     <span class="logo">
+      <figure>
+        <img src="IMAGES/Cyber-Stack-logo.png " alt="cyber-stack-logo" width="90px" height="90px" class="logo-img" />
+      </figure>
+
+    </span>
+    <nav>
+      
+
+     <div class="category-drop">
+        <select name="categories" id="categories" onchange="navigateToCategory(this)">
+        <option value="">
+          Categories
+        </option>
+        
+        <option value="Categories html/Cyber-security.html">
+          Cybersecurity
+        </option>
+        
+        <option value="Categories html/Front-end-dev.html ">
+          Front End Web Development
+        </option>
+        
+        <option value="Categories html/Back-end-dev.html">
+          Back End Web development
+        </option>
+        
+        <option value="Categories html/Fullstack-web-dev.html ">
+          Full-Stack Web Development
+        </option>
+        
+        <option value="Categories html/Mobile-app-dev.html ">
+        Mobile App Development (Android / IOS)  
+        </option>
+        
+        <option value="Categories html/Ai-Ml.html ">
+        AI / ML
+        </option>
+        
+      
+      </select><br />
+</div>
+
+
+<br />
+<div class="links">
+        <p id="nav-links"><a href="#">About</a></p>
+        
+        <p id="nav-links"><a href="#">Home</a></p>
+  </p>
+      
+ </div>    
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Start Your Cybersecurity & Tech Journey</h2>
+    <p>Free & Paid Tech Resources to Learn and Grow</p>
+    <input type="text" id="search" placeholder="Search Blogs, Videos, E-Books On Cybersecurity, Web Dev, Ai-Ml, etc">
+    <button id="searchBtn">
+      Search
+    </button>
+  </section>
+
+  <main>
+    <div id="resource-container" class="resource-grid">
+      <!-- Resources will be injected here by JS -->
+    </div>
+  </main>
+
+  <footer>
+    <p>Built with &#128153 By {FABIAN CODES MEDIA/} 
+    </p><br />
+    
+    <p><b>
+      Built For CYB DEPT. & 
+      SICT FUTO
+    </b></p>
+    
+  <br />  
+    <p>&copy;2025-Till Date | Cyber Stack.cyb-futo</p>
+  </footer>
+
   <script src="main.js"></script>
 </body>
 </html>

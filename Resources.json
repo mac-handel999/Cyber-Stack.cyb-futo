@@ -1,0 +1,31 @@
+
+
+
+ [
+  {
+    "title": "CS50s Introduction to Cybersecurity",
+    "type": "Video Course",
+    "platform": "edX",
+    "category": "Cybersecurity",
+    "link": "https://cs50.harvard.edu/cybersecurity/",
+    "isFree": true
+  },
+  {
+    "title": "TryHackMe - Beginner Path",
+    "type": "Hands-on Labs",
+    "platform": "TryHackMe",
+    "category": "Practical",
+    "link": "https://tryhackme.com/path/outline/beginner",
+    "isFree": true
+  },
+  {
+    "title": "The Web Application Hacker's Handbook",
+    "type": "Book",
+    "platform": "Amazon",
+    "category": "Hacking",
+    "link": "https://www.amazon.com/dp/1118026470",
+    "isFree": false
+  }
+]
+
+

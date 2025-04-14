@@ -44,6 +44,8 @@ function displayResources(filteredResources) {
     const card = document.createElement("div");
     card.className = "resource-card";
     card.innerHTML = `
+            <img src="${resource.image}" alt="${resource.title}" width ="180px" height ="180px" style = "border-radius:20px; display:flex; flex-wrap:wrap;
+        align-items:center; justify-content:center; text-align:center;"/>
       <h3>${resource.title}</h3>
       <p><strong>Type:</strong> ${resource.type}</p>
       <p><strong>Platform:</strong> ${resource.platform}</p>
@@ -68,4 +70,4 @@ searchBtn.addEventListener("click", () => {
   );
 
   displayResources(filtered);
-});
+}); 

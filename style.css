@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 79%;
+  font-size: 95%;
 }
 
 body {
@@ -28,10 +28,23 @@ header {
   margin: 3px;
   padding: 3px;
   border-radius: 90px;
-  width: 60px;
-  height:60px;
+  width: 90px;
+  height:90px;
   box-shadow: 4px 5px 4px 5px black;
   border: 2px solid #fff;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+figure {
+  margin: 10px;
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .links {
@@ -109,6 +122,10 @@ footer {
 #searchBtn {
   margin: 4px;
   padding: 5px;
+  width: 300px;
+  height: 78px;
+  font-weight: bold;
+  font-size: 1rem;
   background: #0f172a ;
   color: #fff;
   border-radius: 20px;
@@ -119,9 +136,19 @@ footer {
 #search {
   margin: 4px;
   padding: 5px;
+  width: 659px;
+  height: 78px;
   background: #0f172a;
   color: #fff;
   border-radius: 20px;
   border: 2px solid #fff;
   box-shadow: 3px 2px 3px 2px black;
+}
+
+.search-bar {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

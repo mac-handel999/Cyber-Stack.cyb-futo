@@ -53,6 +53,35 @@ figure {
   justify-content: space-evenly;
 }
 
+.source {
+  margin: 5px;
+  padding: 5px;
+  color: #393B4D;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.source {
+  display: flex;
+  -webkit-line-clamp: 2; /* number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.source {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 1rem; /* Optional spacing between items */
+  -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+  scrollbar-width: none; /* hide scrollbar on Firefox */
+}
+
+.source::-webkit-scrollbar {
+  display: none; /* hide scrollbar on Chrome/Safari */
+}
+
 #nav-links {
   margin: 5px;
   padding: 5px;
@@ -66,7 +95,7 @@ figure {
   border: 2px solid #fff;
   border-radius: 20px;
 }
-nav a {
+a {
   color: #fff;
   text-decoration: none;
 }
@@ -81,6 +110,14 @@ nav a {
   width: 80%;
   max-width: 400px;
 }
+
+ .marquee {
+   padding: 10px;
+  color: #000;
+  border: 2px solid ;
+  box-shadow: 2px 3px 2px 3px black;
+  border-radius: 10px;
+ }
 .resource-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -90,18 +127,46 @@ nav a {
 
 }
 .resource-card {
-  background: #fff;
+  text-align: center;
+  background: #42445A;
+  color: #fff;
   border: 1px solid #ccc;
   border-radius: 8px;
-  padding: 1rem;
+  margin: 10px;
+  padding: 1.5rem;
   transition: 0.3s ease;
   border: 2px solid #0f172a;
   border-radius: 20px;
   box-shadow: 2px 3px 2px 3px #000;
+  column-gap: 3px;
+  row-gap: 3px;
+  font-weight: bolder;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 .resource-card:hover {
   box-shadow: 2px 3px 2px 3px rgba(0,0,0,0.1);
 }
+
+.view-live {
+  margin: 4px;
+  padding: 5px;
+  color: yellow;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  box-shadow: 1px 2px 1px 2px black;
+}
+
+.title-header {
+  font-weight: bolder;
+  font-size: 1rem;
+  color: yellow;
+}
+
+
 footer {
   background: #0f172a;
   color: #fff;
@@ -125,7 +190,7 @@ footer {
   width: 300px;
   height: 78px;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.5rem;
   background: #0f172a ;
   color: #fff;
   border-radius: 20px;
@@ -151,4 +216,41 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.road-map {
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  background-color:#42445A ;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Road-maps {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  box-shadow: 2px 3px 2px 3px black;
+}
+
+.roadmap-header {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  
 }

@@ -46,11 +46,12 @@ function displayResources(filteredResources) {
     card.innerHTML = `
             <img src="${resource.image}" alt="${resource.title}" width ="180px" height ="180px" style = "border-radius:20px; display:flex; flex-wrap:wrap;
         align-items:center; justify-content:center; text-align:center;"/>
-      <h3>${resource.title}</h3>
+      <h1 class="title-header">${resource.title}</h1>
       <p><strong>Type:</strong> ${resource.type}</p>
       <p><strong>Platform:</strong> ${resource.platform}</p>
       <p><strong>Category:</strong> ${resource.category}</p>
-      <a href="${resource.link}" target="_blank">View Resource</a>
+      <a href="${resource.link}" target="_blank" class="view-live"
+     }>VIEW RESOURCE LIVE</a>
     `;
     container.appendChild(card);
   });

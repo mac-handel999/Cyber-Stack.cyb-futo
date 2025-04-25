@@ -5,10 +5,20 @@
   font-size: 95%;
 }
 
+
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Playwrite RO", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+body {
+  font-family: "playwrite RO", cursive;
   background: #f4f4f4;
   color: #333;
+  font-weight: bold;
 }
 
 header {
@@ -173,6 +183,7 @@ footer {
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .category-drop {
@@ -268,6 +279,39 @@ a {
   height: 50px;
   font-size: 2rem;
   background-color: #42445A;
+}
+
+.about-body {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: rem;
+  font-weight: bold;
+}
+
+.about-head-color {
+  font-size: 1rem;
+  color: #0E1564;
+}
+
+.about-head-color2 {
+  font-size: 1.9rem;
+  color: #9E0C0A;
+}
+
+.star {
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  color: #fff;
+  background: #282C4E;
+  text-align: center;
 }
 
 
